@@ -34,7 +34,7 @@
       <div class="title">
        <h3>LOGIN</h3>
       </div>
-      <form action="loginval.php" method="post" enctype="multipart/form-data">
+      <form action="login_validation.php" method="post" enctype="multipart/form-data">
         <div class="user-details">
           <div class="user-input">
             <label for="">Member ID: </label>
