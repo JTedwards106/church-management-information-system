@@ -61,6 +61,9 @@ unset($_SESSION['errors'], $_SESSION['old_values'], $_SESSION['success_message']
                     <a class="nav-link" href="manage_users.php">Manage Users</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link active" href="register_user.php">Add User</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="logout.php">Logout</a>
                 </li>
             </ul>

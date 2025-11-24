@@ -22,7 +22,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/page.css">
-  <link rel="stylesheet" href="styles/login_page.css">
+  <link rel="stylesheet" href="styles/login.css">
   <!-- Remove duplicate Poppins font import since it's in page.css -->
   <script src="https://kit.fontawesome.com/1cd4fd6359.js" crossorigin="anonymous"></script>
 

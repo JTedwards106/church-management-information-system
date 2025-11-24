@@ -3,8 +3,12 @@
  * Purpose: Additional styling for dashboard page
  * Author: Justin Edwards
  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* Dashboard card styling */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .card {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -15,7 +19,9 @@
     font-size: 2.5rem;
     font-weight: bold;
 }
-
+.blue{
+    background-color: #0d6efd;
+}
 /* Statistic cards hover effect */
 .card:hover {
     transform: translateY(-5px);

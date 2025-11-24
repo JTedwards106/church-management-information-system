@@ -131,7 +131,7 @@ $upcoming_events = $events_result->fetch_assoc()['total'] ?? 0;
             
             <!-- Total Ministries Card -->
             <div class="col-md-3 mb-3">
-                <div class="card text-white bg-success">
+                <div class="card text-white bg-primary">
                     <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
@@ -148,7 +148,7 @@ $upcoming_events = $events_result->fetch_assoc()['total'] ?? 0;
             
             <!-- Today's Attendance Card -->
             <div class="col-md-3 mb-3">
-                <div class="card text-white bg-info">
+                <div class="card text-white bg-primary">
                     <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
@@ -165,7 +165,7 @@ $upcoming_events = $events_result->fetch_assoc()['total'] ?? 0;
             
             <!-- Upcoming Events Card -->
             <div class="col-md-3 mb-3">
-                <div class="card text-white bg-warning">
+                <div class="card text-white bg-primary">
                     <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>

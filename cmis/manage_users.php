@@ -159,7 +159,7 @@ $users_result = $conn->query($users_query);
                                         <td><?php echo htmlspecialchars($user['mem_id']); ?></td>
                                         <td><?php echo htmlspecialchars($user['username']); ?></td>
                                         <td>
-                                            <span class="badge bg-info">
+                                            <span class="badge bg-primary">
                                                 <?php 
                                                 // Display role with nice formatting
                                                 echo ucwords(str_replace('_', ' ', $user['role'])); 
@@ -175,6 +175,7 @@ $users_result = $conn->query($users_query);
                                         </td>
                                         <td><?php echo format_date($user['created_at']); ?></td>
                                         <td>
+                                                <a class="btn btn-sm me-2 text-white bg-primary"  href=".php">Edit User</a>
                                             <?php if ($user['user_id'] != $_SESSION['user_id']): ?>
                                                 
                                                 <?php if ($user['status'] === 'active'): ?>
@@ -215,10 +216,10 @@ $users_result = $conn->query($users_query);
         <div class="mt-3">
             <small class="text-muted">
                 <strong>Role Definitions:</strong><br>
-                <span class="badge bg-info">Administrator</span> - Full system access<br>
-                <span class="badge bg-info">Pastor</span> - View/edit membership, attendance, reports<br>
-                <span class="badge bg-info">Ministry Leader</span> - Update group attendance, view ministry records<br>
-                <span class="badge bg-info">Clerk</span> - Enter members/events, generate standard reports
+                <span class="badge bg-primary">Administrator</span> - Full system access<br>
+                <span class="badge bg-primary">Pastor</span> - View/edit membership, attendance, reports<br>
+                <span class="badge bg-primary">Ministry Leader</span> - Update group attendance, view ministry records<br>
+                <span class="badge bg-primary">Clerk</span> - Enter members/events, generate standard reports
             </small>
         </div>
         
